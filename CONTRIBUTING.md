@@ -41,7 +41,7 @@ plugin renders as a plausible sparkline that is simply untrue.
 ## Getting set up
 
 ```sh
-git clone https://github.com/moneycaringcoder/herdr-pulse
+git clone https://github.com/mcc0x/herdr-pulse
 cd herdr-pulse
 cargo build --release
 herdr plugin link .          # note: `link` does NOT run the build step
