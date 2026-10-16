@@ -4,7 +4,7 @@
 # renders it as a sparkline in the sidebar, so a wedged agent and a busy one
 # stop looking identical between glances.
 #
-# Install:   herdr plugin install moneycaringcoder/herdr-pulse
+# Install:   herdr plugin install mcc0x/herdr-pulse
 # Local dev: herdr plugin link /path/to/herdr-pulse   (does NOT run [[build]])
 # Remove:    herdr plugin unlink moneycaringcoder.pulse
 # Logs:      herdr plugin log list --plugin moneycaringcoder.pulse

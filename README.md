@@ -93,7 +93,7 @@ budget    ╌╌······=
 ## Install
 
 ```sh
-herdr plugin install moneycaringcoder/herdr-pulse
+herdr plugin install mcc0x/herdr-pulse
 ```
 
 For local development, from a checkout:

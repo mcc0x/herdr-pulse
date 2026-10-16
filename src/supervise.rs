@@ -337,7 +337,7 @@ fn systemd_unit(env: &Environment) -> Result<String> {
     let mut unit = String::new();
     unit.push_str("[Unit]\n");
     unit.push_str("Description=pulse — agent activity history for herdr\n");
-    unit.push_str("Documentation=https://github.com/moneycaringcoder/herdr-pulse\n");
+    unit.push_str("Documentation=https://github.com/mcc0x/herdr-pulse\n");
     unit.push_str("After=default.target\n\n");
 
     unit.push_str("[Service]\n");

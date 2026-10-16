@@ -4,7 +4,7 @@ version = "0.1.1"
 edition = "2021"
 description = "Activity history and sparklines for herdr agents."
 license = "MIT"
-repository = "https://github.com/moneycaringcoder/herdr-pulse"
+repository = "https://github.com/mcc0x/herdr-pulse"
 
 # The binary target inherits the package name => target/release/pulse, which is
 # what every command in herdr-plugin.toml points at.
@@ -12,7 +12,7 @@ repository = "https://github.com/moneycaringcoder/herdr-pulse"
 [dependencies]
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-crook = { git = "https://github.com/moneycaringcoder/herdr-crook", tag = "v0.2.0" }
+crook = { git = "https://github.com/mcc0x/herdr-crook", tag = "v0.2.0" }
 
 # Unix-only: setsid for daemon detachment, and SIGINT/SIGTERM shutdown plumbing.
 [target.'cfg(unix)'.dependencies]
